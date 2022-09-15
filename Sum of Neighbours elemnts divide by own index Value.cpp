@@ -77,7 +77,7 @@ for (int i = 0; i < 6; i++)
 
             int sumRow = upperRow + midRow + lowerRow ;
             sum = sumRow - indexValue;
-            result = sum / indexValue;
+            result = sum / (indexValue * 1.0);
             arr2[elm1][elm2] = result;
     }
 }
